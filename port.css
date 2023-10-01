@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,600&family=Fira+Sans&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,600&family=Fira+Sans&family=Rubik&family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;1,600&family=Fira+Sans&family=Rubik&family=Source+Code+Pro:wght@300&family=Urbanist:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: grey; */
+}
+
+.bar {
+    position: absolute;
+    background-color: rgb(212, 212, 212);
+    height: 200vh;
+    width: 200px;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.3s ease-in-out;
+}
+
+.bar div li {
+    list-style-type: none;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 17px;
+    transition: all 350ms ease;
+}
+
+.bar li:hover {
+    background-color: rgb(141, 141, 141);
+    text-decoration: underline;
+}
+
+.bar div {
+    padding: 1rem;
+    font-size: 20px;
+}
+
+.main {
+    /* background-color: grey; */
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.bar div li a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    display: flex;
+}
+
+.contents {
+    /* background-color: dodgerblue; */
+    width: 80vw;
+    height: 60vh;
+    margin: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.intro {
+    font-size: 2.7em;
+
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.disposition {
+    font-size: 2.5em;
+}
+
+.btn {
+    padding: 9px 14px;
+    margin: 15px 3px;
+    border-radius: 25px;
+    color: black;
+    background-color: blanchedalmond;
+    transition: all 400ms ease;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: blanchedalmond;
+    background-color: black;
+}
+
+.btn-sm {
+    margin: 10px 0;
+    font-size: 13px;
+    padding: 7px 14px;
+}
+
+.btn-demo {
+    margin-left: 12px;
+}
+
+.container-home {
+    background-image: url("./images/home-pic.jpg");
+    background-repeat: repeat;
+}
+
+.container-about {
+    background-image: url("./images/about-pic.jpg");
+    background-repeat: repeat;
+
+}
+
+.container-portfolio {
+    background-image: url("./images/portfolio-pic.jpg");
+    background-repeat: repeat;
+}
+
+.container-contact {
+    background-image: url("./images/contact-pic.jpg");
+    background-repeat: repeat;
+}
+
+
+
+
+.devpic img {
+    height: 60vh;
+    width: auto;
+    margin-right: 1em;
+    border-radius: 30px;
+}
+
+.musi-pic {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactform span {
+    display: flex;
+}
+
+.contactform .handles {
+    margin-left: 350px;
+}
+
+.contactform .handles img {
+    padding: 20px 20px;
+}
+
+.contactform .handles section div {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.contactform .handles section div:hover {
+    color: whitesmoke;
+    transition: all 400ms ease;
+    text-decoration: underline;
+    border-radius: 10px;
+    padding-right: 20px;
+    background-color: rgb(65 65 99);
+}
+
+.contactform .handles section div a {
+    font-family: 'Rubik', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+span #gmail {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform {
+    color: whitesmoke;
+    font-family: 'Rubik', sans-serif;
+    /* padding: 0 35px;*/
+    padding-top: 4px;
+    margin: 90px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    /* padding: 12px 0; */
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 25vw;
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: blueviolet;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 13px;
+    margin: 3px;
+}
+
+h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 60px;
+}
+
+/* .blurring {
+    backdrop-filter: blur(10px);
+} */
+
+p {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+}
+
+.musi-pic p {
+    font-size: 17px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.musi-pic span {
+    padding-top: 55px;
+    padding-left: 20px;
+}
+
+
+.skills {
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+.skills h1 {
+    margin-bottom: 5px;
+}
+
+.skillcontainer {
+    margin: 10px;
+}
+
+.skillcontainer span {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+}
+
+.skills .percent {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    margin-top: -4px;
+}
+
+.percent nav {
+    margin: 5px 0;
+}
+
+.html,
+.css,
+.js,
+.php {
+    background-color: grey;
+    width: 200px;
+    padding: 0px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+
+
+.html div {
+    width: 180px;
+    background-color: green;
+    border-radius: inherit;
+    padding-left: 10px;
+    transition: 15s ease-in;
+}
+
+.css div {
+    width: 150px;
+    background-color: green;
+    border-radius: inherit;
+    padding-left: 10px;
+}
+
+.js div {
+    width: 160px;
+    background-color: green;
+    border-radius: inherit;
+    padding-left: 10px;
+}
+
+.php div {
+    width: 120px;
+    background-color: green;
+    border-radius: inherit;
+    padding-left: 10px;
+}
+
+.barGo {
+    transform: translate(-250px, 0);
+    position: absolute;
+}
+
+.controller {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross {
+    margin-left: 154px;
+}
+
+.musi-pic img {
+    height: 70vh;
+    width: 60vw;
+}
+
+.workbox {
+    font-family: 'Rubik', sans-serif;
+    margin: 85px 120px;
+}
+
+@media (max-width:1300px) {
+    .devpic {
+        display: none;
+    }
+
+    .workbox {
+        margin: 85px 8px;
+    }
+
+    .musi-pic {
+        margin: 0px 8px;
+    }
+
+    .musi-pic span {
+        padding: 0;
+    }
+
+    .musi-container {
+        display: none;
+    }
+
+    .devinfo {
+        margin: 150px 8px;
+        font-size: 13px;
+    }
+
+    .contents {
+        margin: 150px;
+        margin-left: 20px;
+    }
+
+    /* 
+    .blurring {
+        backdrop-filter: none;
+    } */
+
+
+    h1 {
+        font-size: 40px;
+    }
+
+    #aboutme h1 {
+        font-size: 40px;
+        margin-top: 300px;
+    }
+
+    .contactform {
+        margin: 85px 8px;
+    }
+
+    .contactform span {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactform .handles {
+        margin-top: 50px;
+        margin-left: inherit;
+    }
+
+    .contactform form div input {
+        width: 300px;
+    }
+}

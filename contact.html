@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+
+<body class="container-contact">
+    <div class="container">
+        <div class="bar barGo">
+            <div>
+                <ul>
+                    <li><a href="port.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="portfolio.html">My Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main">
+            <div class="controller">
+                <img src="./images/bar-icon.png" alt="Open Sidebar" class="ham" width="23px" height="23px">
+                <img src="./images/cross.png" alt="Close Sidebar" class="cross" width="26px" height="26px">
+            </div>
+            <div class="contactform">
+                <h1>Contact Me</h1>
+                <span>
+                    <form>
+                        <h2>Message Me</h2>
+                        <div class="mb-3">
+                            <label for="clientname" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="clientname">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientemail" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">*Note-We will never share your email and phone with
+                                anyone
+                                else.
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientphone" class="form-label">Phone no</label>
+                            <input type="phone" class=" form-control" id="clientphone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clientenquiry" class="form-label">Enquiry</label>
+                            <input type="text" class=" form-control" id="clientenquiry">
+                        </div>
+                        <div class=" mb-3 form-check" id="form-check">
+                            <input type="checkbox" class="form-check-input" id="isclient">
+                            <label class="form-check-label" for="isclient">I would like you to work on a project with
+                                me</label>
+                        </div>
+                        <button type="submit" class="btn btn-sm">Submit</button>
+                    </form>
+                    <div class="handles">
+                        <h2>Get in Touch</h2>
+                        <section>
+                            <div class="linkedin"><img src="./images/linkedin-pic.png" alt="Linked in logo"
+                                    height="50px" width="50px">
+                                <a href="https://www.linkedin.com/in/dinakar-278287261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+                                    target="_blank">Linked In
+                                </a>
+                            </div>
+                            <div class="github"><img src="./images/github-pic.png" alt="Githublogo" height="50px"
+                                    width="50px">
+                                <a href="https://github.com/ThunderbirdInfinity/ThunderbirdInfinity"
+                                    target="_blank">GitHub
+                                </a>
+                            </div>
+                            <div class="email-id"><img src="./images/email-pic.png" alt="Gmail logo" height="50px"
+                                    width="50px"><span id="gmail"><a>Email</a><a>dinakar7012@gmail.com</a></span></div>
+                        </section>
+                    </div>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
